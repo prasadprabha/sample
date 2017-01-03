@@ -26,9 +26,7 @@ public class DataTableController {
 	public @ResponseBody DataTableObject listPersons(Model model) {
 		model.addAttribute("person", new Person());
 		model.addAttribute("listPersons", this.personService.listPersons());
-		//response.setContentType('application/json');
-		 // PrintWriter out = response.getWriter();
-		 // List<Student> lisOfStudent = StudentDataService.getStudentList();
+		
 		  
 		  DataTableObject dataTableObject = new DataTableObject();
 		  dataTableObject.setAaData(this.personService.listPersons());
