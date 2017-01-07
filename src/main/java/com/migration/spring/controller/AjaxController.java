@@ -17,7 +17,7 @@ public class AjaxController {
 	public @ResponseBody Map<String,String> conditions(Model model,@RequestParam String circuitType) {
 		System.out.println(circuitType);
 		Map<String,String> conditions = new HashMap<String,String>();
-		//test prasad
+		// Everything is working fine
 		if("uniCFS".equals(circuitType)) {
 			conditions.put("Disconnected???", "removeDisconnect");
 			conditions.put("Remove all Pending", "portCircuitRelated");
