@@ -11,9 +11,6 @@ import com.migration.spring.model.Person;
 @Service
 public class PersonServiceImpl implements PersonService {
 	
-	//Prasadprabha07@gmail.com
-	//prasoops@gmail.com
-	
 	private PersonDAO personDAO;
 
 	public void setPersonDAO(PersonDAO personDAO) {
