@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class AjaxController {
 	
 	//1
+	//2
 
 	@RequestMapping(value = "/conditions", method = RequestMethod.GET)
 	public @ResponseBody Map<String,String> conditions(Model model,@RequestParam String circuitType) {
