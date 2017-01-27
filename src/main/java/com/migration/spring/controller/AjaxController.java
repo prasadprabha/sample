@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class AjaxController {
 	
+	//Prasad1
+	
 
 	@RequestMapping(value = "/conditions", method = RequestMethod.GET)
 	public @ResponseBody Map<String,String> conditions(Model model,@RequestParam String circuitType) {
